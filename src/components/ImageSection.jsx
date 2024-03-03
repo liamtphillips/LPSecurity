@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import dashboardImage from '../assets/lpsecurityUI.png';
 import AnimatedPath from '../components/AnimatedPath';
 
-const Hmmm = () => {
+const ImageSection = () => {
 
   return (
     <div id="about">
@@ -31,4 +31,4 @@ const Hmmm = () => {
   );
 }
 
-export default Hmmm;
+export default ImageSection;

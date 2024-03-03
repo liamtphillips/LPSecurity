@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaLinkedin } from "react-icons/fa";
 import { IoLockClosedOutline } from "react-icons/io5";
+
 const Footer = () => {
   return (
     <div className='bg-gradient-to-t from-indigo-600  to-neutral-950 text-white py-16'>
