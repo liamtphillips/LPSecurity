@@ -71,16 +71,16 @@ export const sections = [
   },
 ];
 
-export const cardData = [
+export const deviceData = [
   {
     title: 'Security on the go.',
     text: 'Fit all of your cyber security essentials in your pocket, so you never miss a beat while on the go.',
-    cardImage: mockup,
+    deviceImage: mockup,
   },
   {
     title: 'Receive updates constantly.',
     text: 'A constant stream of information from your business available 24/7.',
-    cardImage: ipad,
+    deviceImage: ipad,
   },
 ];
 
