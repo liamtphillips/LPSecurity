@@ -24,7 +24,7 @@ const Newpage = () => {
             }}
           >
             <div className='flex text-white justify-center items-center  lg:mt-10 mt-20'>
-                <button className='border-gray-600 border px-5 rounded-full py-2'>Our Platform</button>
+                <div className='border-gray-600 border px-5 rounded-full py-2'>Our Platform</div>
             </div>
             <div className='flex  justify-center'>
                 <img src={logowhite} className='w-80 py-10 opacity-80 animate-pulse' />

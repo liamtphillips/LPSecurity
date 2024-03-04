@@ -3,7 +3,7 @@ import { NavLink, Link } from "react-router-dom";
 import { FaHome } from "react-icons/fa";
 import { RiTeamFill } from "react-icons/ri";
 import { FaRegQuestionCircle } from "react-icons/fa";
-import { FaPhone } from "react-icons/fa6";
+import { AiFillPhone } from "react-icons/ai";
 
 
 const activeNavLink = ({ isActive }) => (isActive ? "active_link text-indigo-600" : "");
@@ -30,7 +30,7 @@ const Navbar = () => {
               <FaRegQuestionCircle size={24} />
             </NavLink>
             <NavLink to="/contact" className={activeNavLink}>
-              <FaPhone size={24} />
+              <AiFillPhone size={24} />
             </NavLink>
           </div>
           {/* Navbar for medium and above screens */}

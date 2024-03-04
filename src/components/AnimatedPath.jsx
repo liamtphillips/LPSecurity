@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const ReusableSvgScrollAnimation = ({ svgPathId, scrollMultiplier }) => {
+const SvgScrollAnimation = ({ svgPathId, scrollMultiplier }) => {
   const [length, setLength] = useState(0);
 
   useEffect(() => {
@@ -27,4 +27,4 @@ const ReusableSvgScrollAnimation = ({ svgPathId, scrollMultiplier }) => {
   return null; 
 };
 
-export default ReusableSvgScrollAnimation;
+export default SvgScrollAnimation;
