@@ -53,7 +53,7 @@ const Navbar = () => {
             <div className="">
               <Link
                 to="/contact"
-                className="text-white border-2 text-xl  border-indigo-700 px-3 py-1 rounded-md hover:bg-indigo-700 transition-all duration-500"
+                className="text-white border-2 text-xl border-indigo-700 px-3 py-1 rounded-md hover:bg-indigo-700 transition-all duration-500"
               >
                 Contact
               </Link>
