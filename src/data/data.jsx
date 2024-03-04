@@ -41,7 +41,7 @@ export const cardsData = [
 export const sections = [
   {
     icon: <HiMiniClipboardDocumentCheck />,
-    title: 'How will you help my business?',
+    title: 'How will LPSecurity help my business?',
     lineOne:
       "Our intuitive and robust dashboard provides real-time insights into your network security, vulnerability assessments, and threat landscapes. With our product, you gain a comprehensive overview of your cybersecurity posture, enabling proactive identification and mitigation of potential risks.",
     lineTwo:
@@ -63,11 +63,11 @@ export const sections = [
     icon: <HiMiniClipboardDocumentCheck />,
     title: 'Is it updated regularly?',
     lineOne:
-      "Our product is constantly kept up to date with industry standards,",
+      "Regular updates to the cybersecurity dashboard are essential to ensure real-time visibility into the evolving threat landscape and the effectiveness of implemented security measures.",
     lineTwo:
-      "LTSecurity solves this problem by embedding into your procurement process to continually track security-related contracts. Our advanced search and analytics engine indexes contracts, providing a clear view of what products your enterprise owns, when they expire, and how much they cost.",
+      "Updates related to user access, authentication logs, and any suspicious user activities are continually fed into the dashboard to detect anomalies and potential security breaches.",
     lineThree:
-      "Fusing contractual data with deep security understanding unlocks immediate financial and inventory insights, empoering C-level strategy.",
+      "Information about the latest security patches and updates for software and systems is regularly integrated into the dashboard.",
   },
 ];
 
