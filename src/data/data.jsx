@@ -57,7 +57,7 @@ export const sections = [
     lineTwo:
       "Our dashboard solves this problem by embedding all the essentials into one place. We make your cyber security experience a stress free one.",
     lineThree:
-      "Fusing contractual data with deep security understanding unlocks immediate financial and inventory insights, empoering C-level strategy.",
+      "Fusing contractual data with deep security understanding unlocks immediate financial and inventory insights, empowering C-level strategy.",
   },
   {
     icon: <HiMiniClipboardDocumentCheck />,
