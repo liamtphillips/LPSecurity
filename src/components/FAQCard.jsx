@@ -8,10 +8,10 @@ const FAQCard = ({ icon, title, lineOne, lineTwo, lineThree }) => {
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 1 }}
-      transition={{ duration: 0.5}}
+      transition={{ duration: 0.5 }}
       variants={{
-        hidden: { opacity: 0, x: 100 },
-        visible: { opacity: 1, x: 0 },
+        hidden: { opacity: 0, y: 100 }, 
+        visible: { opacity: 1, y: 0 }, 
       }}
     >
       <div className='w-full py-2 gap-y-4 flex flex-col mb-4 mt-4 '>
@@ -33,7 +33,6 @@ const FAQCard = ({ icon, title, lineOne, lineTwo, lineThree }) => {
           </p>
         </div>
       </div>
-      
     </motion.div>
   );
 };
