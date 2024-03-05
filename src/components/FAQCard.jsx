@@ -28,7 +28,7 @@ const FAQCard = ({ icon, title, lineOne, lineTwo, lineThree }) => {
           <p className='lg:text-lg text-base px-4 mb-4 pl-12 max-w-6xl'>
             {lineTwo}
           </p>
-          <p className=' lg:text-lg text-base px-4 pl-12 max-w-6xl'>
+          <p className='lg:text-lg text-base px-4 pl-12 max-w-6xl'>
             {lineThree}
           </p>
         </div>

@@ -20,7 +20,7 @@ export const cardsData = [
   },
   {
     title: 'Malware Infections',
-    description: 'Cybersecurity safeguards against malware which can cause damage to systems and disrupt operations',
+    description: 'Cybersecurity safeguards against malware which can cause damage to systems and disrupt operations.',
     icon: <FaBacteria />,
     iconColor: 'indigo',
   },
