@@ -34,7 +34,7 @@ const DrawPathOnScroll = () => {
              visible: { opacity: 1, x: 0 },
            }}
            >
-          <DeviceCard key={index} {...item} mtClass={index === 1 ? 'mt-20' : ''} />
+          <DeviceCard key={index} {...item} mtClass={index === 1 ? 'lg:mt-20' : ''} />
           </motion.div>
         ))}
       </div>

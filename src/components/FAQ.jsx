@@ -8,7 +8,7 @@ import AnimatedPath from '../components/AnimatedPath';
 const ServicesTest = () => {
 
   return (
-    <div id="solution" className=' container mx-auto min-h-screen'>
+    <div id="solution" className='container mx-auto min-h-screen'>
       
       <motion.div
         initial="hidden"
