@@ -11,8 +11,8 @@ const ImageSection = () => {
       initial="hidden"
       animate="visible"
       variants={{
-        hidden: { opacity: 0, x: 50 },
-        visible: { opacity: 1, x: 0, transition: { type: 'tween', duration: 1, delay: 1 } },
+        hidden: { opacity: 0, y: 50 },
+        visible: { opacity: 1, y: 0, transition: { type: 'tween', duration: 1, delay: 1 } },
       }}
     >
       <div>

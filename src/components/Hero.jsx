@@ -17,7 +17,7 @@ const Hero = () => {
       return (
         <div>
           <motion.div
-            className='container mx-auto px-4 pb-4'
+            className='container mx-auto px-4 pb-4 overflow-hidden'
             variants={textSectionVariants}
             initial="hidden"
             animate="visible"

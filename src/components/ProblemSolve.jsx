@@ -15,8 +15,8 @@ const Security = () => {
         viewport={{ once: true, amount: 0.5 }}
         transition={{ duration: 0.5 }}
         variants={{
-          hidden: { opacity: 0, x: 50 },
-          visible: { opacity: 1, x: 0 },
+          hidden: { opacity: 0, y: 50 },
+          visible: { opacity: 1, y: 0 },
         }}
       >
         <div className='flex text-white justify-center items-center  mt-16 lg:mt-24'>
@@ -29,7 +29,7 @@ const Security = () => {
         </div>
       </motion.div>
       <div className='flex justify-center py-10'>
-        <div className='grid md:grid-cols-2 grid-cols-1 text-white max-w-6xl gap-10 mt-6'>
+        <div className='grid md:grid-cols-2 grid-cols-1 text-white max-w-6xl gap-10 mt-6 overflow-hidden'>
           {cardsData.map((card, index) => (
             <motion.div
               key={index}
@@ -60,8 +60,8 @@ const Security = () => {
         viewport={{ once: true, amount: 0.5 }}
         transition={{ duration: 1, delay: 0.5 }}
         variants={{
-          hidden: { opacity: 0, x: 50 },
-          visible: { opacity: 1, x: 0 },
+          hidden: { opacity: 0, y: 50 },
+          visible: { opacity: 1, y: 0 },
         }}
       >
         <div className="w-[560px] ml-16 border-indigo-600  border-r-4 hidden py-12 lg:block my-8 "></div>

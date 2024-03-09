@@ -29,9 +29,9 @@ const DrawPathOnScroll = () => {
            variants={{
              hidden: {
                opacity: 0,
-               x: index % 2 === 0 ? -50 : 50,
+               y: index % 2 === 0 ? -50 : 50,
              },
-             visible: { opacity: 1, x: 0 },
+             visible: { opacity: 1, y: 0 },
            }}
            >
           <DeviceCard key={index} {...item} mtClass={index === 1 ? 'lg:mt-20' : ''} />
@@ -45,8 +45,8 @@ const DrawPathOnScroll = () => {
         viewport={{ once: true, amount: 0.5 }}
         transition={{ duration: 0.5, delay: 0.5 }}
         variants={{
-          hidden: { opacity: 0, x: 50 },
-          visible: { opacity: 1, x: 0 },
+          hidden: { opacity: 0, y: 50 },
+          visible: { opacity: 1, y: 0 },
         }}
       >
         <div className='flex text-white justify-center items-center  mt-36'>
