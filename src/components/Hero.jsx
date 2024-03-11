@@ -88,7 +88,7 @@ const Hero = () => {
                 animate="visible"
               >
                 <img src={SecurityLogo} className="w-100 hidden lg:block " alt="LPSecurity Logo" />
-                <div className="absolute bg-indigo-600 rounded-full w-60 h-60 opacity-50 blur-3xl animate-growShrink top-36 right-24 hidden lg:block"></div>
+                <div className="absolute bg-indigo-600 rounded-full w-52 h-52 opacity-50 blur-3xl animate-growShrink top-40 right-32 hidden lg:block"></div>
               </motion.div>
             </div>
           </motion.div>
