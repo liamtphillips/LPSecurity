@@ -17,7 +17,7 @@ const Hero = () => {
       return (
         <div>
           <motion.div
-            className='container mx-auto px-4 pb-4 overflow-hidden'
+            className='container mx-auto px-6 lg:px-4 pb-4 overflow-hidden'
             variants={textSectionVariants}
             initial="hidden"
             animate="visible"
@@ -31,12 +31,12 @@ const Hero = () => {
                 animate="visible"
               >
                 <div className="max-w-3xl pb-10">
-                  <h1 className="lg:text-6xl text-4xl font-bold mb-2">
+                  <h1 className="lg:text-6xl text-3xl font-bold mb-2">
                     <span className="bg-gradient-to-r from-purple-600 to-indigo-600 inline-block text-transparent bg-clip-text">
                       A Revolution
                     </span><br /> In Security Investment
                   </h1>
-                  <h1 className="text-2xl mt-6 text-gray-300 mb-2">LPSecurity provides your business with</h1>
+                  <h1 className="text-lg md:text-2xl mt-6 text-gray-300 mb-2">LPSecurity provides your business with</h1>
                   <TypeAnimation
                     sequence={[
                       'Threat Detection and Prevention..',
@@ -53,7 +53,7 @@ const Hero = () => {
                     className="lg:text-2xl text-lg font-semibold text-gray-200"
                     repeat={Infinity}
                   />
-                  <h1 className="text-2xl text-gray-300 mt-2 ">all in one place.</h1>
+                  <h1 className="text-lg md:text-2xl text-gray-300 mt-2 ">all in one place.</h1>
                   <p className="text-sm lg:text-2xl mt-6 text-gray-300">
                     We are your shield for seamless cyber security, unifying protection in one powerful dashboard.
                   </p>
