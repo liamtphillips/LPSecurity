@@ -31,7 +31,7 @@ const Hero = () => {
                 animate="visible"
               >
                 <div className="max-w-3xl pb-10">
-                  <h1 className="lg:text-6xl text-2xl font-bold mb-2">
+                  <h1 className="md:text-6xl text-2xl font-bold mb-2">
                     <span className="bg-gradient-to-r from-purple-600 to-indigo-600 inline-block text-transparent bg-clip-text">
                       A Revolution
                     </span><br /> In Security Investment
@@ -50,11 +50,11 @@ const Hero = () => {
                     ]}
                     wrapper="span"
                     speed={50}
-                    className="lg:text-2xl text-md font-semibold text-gray-200"
+                    className="md:text-2xl text-md font-semibold text-gray-200"
                     repeat={Infinity}
                   />
                   <h1 className="text-md md:text-2xl text-gray-300 mt-2 ">all in one place.</h1>
-                  <p className="text-sm lg:text-2xl mt-6 text-gray-300">
+                  <p className="text-sm md:text-2xl mt-6 text-gray-300">
                     We are your shield for seamless cyber security, unifying protection in one powerful dashboard.
                   </p>
                 </div>

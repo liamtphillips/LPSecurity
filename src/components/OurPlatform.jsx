@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const Newpage = () => {
     return (
 
-        <div className=''>
+        <div className='px-2 lg:px-0'>
             <svg className='ml-8 mt-8 hidden lg:block' width="594" height="423" viewBox="0 0 594 423" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <AnimatedPath svgPathId="svgPath3" scrollMultiplier={7} />
                 <path id="svgPath3" d="M2 1C17.7259 75.5781 92.4589 176.028 350.561 168.801C618.087 161.31 588.128 325.5 592 422" stroke="#4B50E6" strokeWidth="4" />
@@ -33,7 +33,7 @@ const Newpage = () => {
                 <span className='text-white'><span className="text-indigo-600 font-semibold">LP</span>SECURITY</span>
             </div>
             <div className='flex justify-center py-10'>
-                <p className='text-lg text-gray-300 text-center max-w-lg'>LPSecurity is a one stop dashboard for all your cyber security needs. Our stylish and modern dashboard
+                <p className='text-lg text-gray-300 text-center max-w-lg px-4 lg:px-0'>LPSecurity is a one stop dashboard for all your cyber security needs. Our stylish and modern dashboard
                     helps your business prioritse threats in your strategy, and continously maximise your return on security investment.
                 </p>
             </div>

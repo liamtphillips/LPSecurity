@@ -9,7 +9,7 @@ import { deviceData } from '../data/data';
 const DrawPathOnScroll = () => {
 
   return (
-    <div className='min-h-screen mt-10 '>
+    <div className='min-h-screen mt-10 px-4 lg:px-0 '>
       <svg className='absolute z-[-1] hidden lg:block' width="1155" height="840" viewBox="0 0 1155 792" fill="none">
         <AnimatedPath svgPathId="svgPath4" scrollMultiplier={7.5} />
         <path id="svgPath4"
