@@ -22,7 +22,7 @@ const App = () => {
           </div>
         </div>
         {/* Main content container */}
-        <div className="relative z-10 h-auto">
+        <div className="relative z-10 h-auto overflow-hidden">
           <Navbar className />
           <Routes>
             <Route path="/" element={<Home />} className="container mx-auto" />

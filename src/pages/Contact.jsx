@@ -69,7 +69,7 @@ const Contact = () => {
           </div>
         </div>
         {/* Right Column */}
-        <div className="w-full pl-4 mb-6 md:mb-0">
+        <div className="w-full lg:pl-4 mb-6 md:mb-0">
           <div className="mb-6">
             <label className="block tracking-wide text-white text-xs  mb-2" htmlFor="message">
               Message

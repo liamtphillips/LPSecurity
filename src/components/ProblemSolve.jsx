@@ -7,7 +7,7 @@ import JourneyComponent from './JourneyComponent';
 
 const Security = () => {
   return (
-    <div id="security" className='min-h-screen'>
+    <div id="security" className='lg:min-h-screen'>
       <motion.div
         className='flex flex-col max-w-xl text-center text-white py-4 mb-4 mx-auto'
         initial="hidden"

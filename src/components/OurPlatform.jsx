@@ -13,7 +13,7 @@ const Newpage = () => {
             </svg>
     
         <motion.div
-            className=' container mx-auto'
+            className='container mx-auto'
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.5 }}
@@ -23,7 +23,7 @@ const Newpage = () => {
               visible: { opacity: 1, y: 0 },
             }}
           >
-            <div className='flex text-white justify-center items-center  lg:mt-10 mt-20'>
+            <div className='flex text-white justify-center items-center  md:mt-0 lg:mt-10 mt-20'>
                 <div className='border-gray-600 border px-5 rounded-full py-2'>Our Platform</div>
             </div>
             <div className='flex  justify-center'>
